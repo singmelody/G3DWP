@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="math">
+      <UniqueIdentifier>{9a9f084a-5a63-42fd-841c-0e2345af7918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{f117dfd3-c9ef-435a-b3db-9ea79caf6ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{12f33d9f-bbb2-424d-8e4a-3fbd46c03468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{9277d92e-1b99-4399-a961-11d9eff0edfb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="math\newMath\new_float4.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\newMath\new_matrix44.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\newMath\new_plane.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\newMath\new_quaternion.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\OgreMath\OgreMath.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\OgreMath\OgreMatrix3.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\OgreMath\OgreMatrix4.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\OgreMath\OgreQuaternion.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\OgreMath\OgreVector3.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\OgreMath\OgreVector4.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\bbox.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\float3.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\intersection.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\line.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\MinMaxCurve.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\size.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\sphere_.cc">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="stdneb.cc" />
+    <ClCompile Include="memory\wp\wpmemorypool.cc">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\wp\wpheap.cc">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\wp\wpmemory.cc">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\wp\wpmemoryconfig.cc">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="core\config.cc">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="math\newMath\new_float4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\newMath\new_matrix44.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\newMath\new_plane.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\newMath\new_point.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\newMath\new_quaternion.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\newMath\new_scalar.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\newMath\new_vector.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\OgreMath\asm_math.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\OgreMath\OgreMath.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\OgreMath\OgreMatrix3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\OgreMath\OgreMatrix4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\OgreMath\OgrePrerequisites.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\OgreMath\OgreQuaternion.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\OgreMath\OgreVector3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\OgreMath\OgreVector4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\bbox.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\clipstatus.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\color.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\curve.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\float2.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\float3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\float4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\frustum.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\intersection.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\line.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\matrix44.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\MinMaxCurve.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\noise.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\plane.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\point.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\point2d.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\polar.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\PolyCurve.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\quaternion.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\ray.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\rectangle.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\scalar.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\size.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\sphere_.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\transform44.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\vector.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="stdneb.h" />
+    <ClInclude Include="core\wp\precompiled.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\config.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="util\array.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\wp\wpmemorypool.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\wp\wpheap.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\wp\wpmemory.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\wp\wpmemoryconfig.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
